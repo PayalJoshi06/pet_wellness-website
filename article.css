@@ -1,0 +1,77 @@
+/* Style for article titles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff6600;
+  padding: 20px;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* Style for article content */
+p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Style for article lists */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Style for article list items */
+li {
+  margin-bottom: 5px;
+}
+
+/* Style for article containers */
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Style for individual articles */
+article {
+  width: calc(50% - 20px); /* Adjust as needed */
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Style for article images */
+article img {
+  width: 100%;
+  margin-top: 10px;
+}

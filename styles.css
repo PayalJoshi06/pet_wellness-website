@@ -1,0 +1,94 @@
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff6600;
+  padding: 20px;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#hero {
+  background-image: url('https://software.covetrus.com/wp-content/uploads/2023/05/careplans-header-bg.jpg');
+  background-size: cover;
+  color: #333;
+  text-align: left;
+  padding: 170px 0;
+}
+
+#hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.cta-btn {
+  background-color: #fff;
+  color: #ff6600;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#featured-content {
+  padding: 50px 0;
+  text-align: left;
+}
+
+.content-item {
+  margin-bottom: 40px;
+}
+
+.content-item img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.content-item h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.content-item p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#video-gallery {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.video-item {
+  margin-bottom: 40px;
+}
+
+video {
+  width: 100%;
+  border-radius: 10px;
+}
