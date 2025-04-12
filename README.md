@@ -1,0 +1,1 @@
+Developed a responsive website to promote pet adoption and educate users on proper pet care. The platform provides tips on handling pets with love and responsibility, tailored to different animal types. Built using HTML, CSS, and JavaScript, the site emphasizes user-friendly design and accessibility.
